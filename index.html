@@ -4,33 +4,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/142f12367b.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
     <title>Time Travel Tours</title>
   </head>
 
   <body>
-    <div class="navbar">
-      <a href="index.html">Home</a>
+    <div class="navbar" id = "TopNavBar">
+      <a href="index.html" class="active"><i class="fas fa-home"></i></a>
       <a href="activities.html">Activities</a>
       <a href="bookings.html">Bookings</a>
       <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
     
     <div class="main">
-      <div class="hero-image">
-        <div class="hero-text">
+      <div class="homepage-image">
+        <div class="homepage-text">
           <h1 style="font-size:50px">Time Travel Tours</h1>
           <a href="activities.html" class="button1">Step Back in Time</a>
         </div>
       </div>
     </div>
-   <!-- <ul>
-      <li><a href="index.html" class="active"'>TTT</a></li>
-      <li><a href="activities.html">Activities</a></li>
-      <li><a href="bookings.html">Bookings</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  -->
   </body>
 </html>
