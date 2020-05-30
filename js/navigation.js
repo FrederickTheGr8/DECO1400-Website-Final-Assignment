@@ -1,6 +1,7 @@
+var topnavbarelement = document.getElementById("TopNavBar");
+
 /* When user clicks on the burger icon, the reactive class is added, if the user clicks the burger again it will turn it back into the normal navbar class */
 function navBarFunction() {
-    var topnavbarelement = document.getElementById("TopNavBar");
     if (topnavbarelement.className === "navbar") {
       topnavbarelement.className += " reactive";
     } else {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/142f12367b.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/navigation.js"></script>
+    <script src="js/navigation.js"></script>
     <title>Activities</title>
   </head>
 
@@ -20,13 +20,32 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
+    <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i class="fas fa-arrow-circle-up"></i></button>
+    
+    <script src="js/navigation.js"></script>
+
     
     <div class="main">
-      <div class="activities-image">
+      <div class = "slide-show-container">
         <div class="activities-text">
           <h1 style="font-size:50px">Activities</h1>
         </div>
+        <div class = "activity-slide">
+          <img src = "images/gray-wooden-house-burning-731577.jpg" alt="Gray wooden house surrounded by snow & fireplace burning" style="width:100%;height:20%">
+        </div>
+        <div class = "activity-slide">
+          <img src = "images/st-basil-s-cathedral-3629813.jpg" alt="St Basil's Cathedral with Cherry Blossoms in front, Red Square, Moscow" style="width:100%; height: 50%">
+        </div>
+      </div>
+      <div style="text-align:center">
+        <span class="slide-show-dot"></span> 
+        <span class="slide-show-dot"></span> 
+        <span class="slide-show-dot"></span> 
       </div>
     </div>
+    
   </body>
+  
+<script src="js/slideshow.js"></script>
+<script>getSlides();</script>
 </html>
