@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #696969;
+  background-color: #ffffff;
   font-family: sans-serif;
 }
 
@@ -114,8 +114,14 @@ body {
   text-shadow: 2px 2px #696969;
 }
 
+.contact-text {
+  text-align: center;
+  top: 5%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+}
+
 .activities-image {
-  background-image: url("../images/st-basil-s-cathedral-3629813.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,14 +129,14 @@ body {
   position: relative;
 }
 
-.activities-text {
+.activities-header {
   text-align: left;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 4px 4px #696969;
+  transform: translate(-50%, -40%);
+  color: rgb(8, 224, 231);
+  text-shadow: 2px 2px #000000;
 }
 
 .button1 {
@@ -142,35 +148,23 @@ body {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: rgb(13, 231, 220);
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 
-.button1:hover {background-color: #3e8e41}
+.button1:hover {background-color: #08a2ad}
 
 .button1:active {
-  background-color: #3e8e41;
+  background-color: #0dd4ee;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-
 .slide-show-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
-}
-
-.slide-show-dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
 }
 
 .caption-text {
@@ -185,4 +179,173 @@ body {
 
 .activity-slide {
   display: none;
+}
+
+.activity-slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.activity-slide img:hover {
+  opacity: 0.8;
+}
+
+.activity-card-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+
+.activity-card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  float: left;
+  width: 200px;
+  height:350px
+}
+
+.activity-card:hover {
+  border: 1px solid #777;
+}
+
+.activity-card img {
+  width: 100%;
+  height: auto;
+}
+
+.activity-card-text {
+  padding: 10px;
+  text-align: center;
+}
+.activity-text{
+  padding-left: 10px;
+  padding-right: 5px;
+  text-align: left;
+  width: 100%;
+  overflow:auto;
+  padding: 10px
+}
+.activity-text-left{
+   float:left; 
+   width: 70vw;
+   padding-left: 5px;
+   padding-right: 10px;
+ }
+ .activity-text-left-indent{
+   text-indent: 20px;
+ }
+.activity-text-right{
+  float:right;
+  width: 25vw;
+  text-align: center;
+}
+
+.book-now-button{
+  background-color:orange;
+  border-radius: 4px;
+  border: palegoldenrod;
+  color: blue;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;  
+}
+
+hr{
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #ff0000;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.pop-out-image {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.pop-out-image-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 90%;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-form-container {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 8px;
 }

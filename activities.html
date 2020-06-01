@@ -11,38 +11,86 @@
   </head>
 
   <body>
-    <div class="navbar" id = "TopNavBar">
+    <section class="navbar" id = "TopNavBar">
       <a href="index.html" class="active"><i class="fas fa-home"></i></a>
       <a href="activities.html">Activities</a>
-      <a href="bookings.html">Bookings</a>
       <a href="contact.html">Contact</a>
+      <a href="aboutus.html">About Us</a>
       <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
         <i class="fa fa-bars"></i>
       </a>
-    </div>
+    </section>
+
     <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i class="fas fa-arrow-circle-up"></i></button>
     
     <script src="js/navigation.js"></script>
 
     
-    <div class="main">
-      <div class = "slide-show-container">
-        <div class="activities-text">
-          <h1 style="font-size:50px">Activities</h1>
+    <section class="main">
+      <header>
+      <section class = "slide-show-container">
+        <div class="activities-header">
+          <h1 style="font-size:5vw">Activities</h1>
+          <h2 style="font-size:3vw">With cutting edge Time Travel technology and our expert tour guides, witness the history of the Soviet Union first-hand</h2>
         </div>
-        <div class = "activity-slide">
-          <img src = "images/gray-wooden-house-burning-731577.jpg" alt="Gray wooden house surrounded by snow & fireplace burning" style="width:100%;height:20%">
+          <div class = "activity-slide">
+            <img id = "surfer" src = "images/slides/widesurfboarder.jpg" alt="Man in a full body wet suit holding a surfboard on a bank, overlooking the ocean, Kamchatka Peninsula, Russia">
+          </div>
+          
+          <div class = "activity-slide">
+            <img id = "redsquare" src = "images/slides/wideredsquare.jpg" alt="Historic Red Square in Russia, people walking through the square at dusk, buildings lit up">
+          </div>
+          <div class = "activity-slide">
+            <img id = "widevodka" src = "images/slides/widevodka.jpg" alt="People eating a meal and drinking Vodka, Khuzhir, Russia">
+          </div>
+          <div id="popOutImage" class="pop-out-image">
+            <span class="close">&times;</span>
+            <img class="pop-out-image-content" id ="imagecontent">
+            <div id="caption"></div>
+          </div>
+        </section>
+      </header>
+
+      <script src="js/popoutimage.js"></script>
+
+      <section class="activity-card-container">
+          <div class="activity-card">
+            <a target="_self" href="activity-pripyat.html">
+              <img src="../jwh-images/Chernobyl-Pripyat/photosforclass.com/ladies-in-post-office-oldandtoday.png" alt="See Pripyat before the devastation" width="200" height="300">
+            </a>
+            <div class="activity-card-text">Pripyat, the pinnacle of Communist life... Before the dream died"</div>
+            </div>
+
+            <div class="activity-card">
+              <a target="_blank" href="activity-pripyat.html">
+                <img src="../images/interior-design-of-a-building-3697742.jpg" alt="??" width="200" height="300">
+              </a>
+              <div class="activity-card-text">Chernobyl, The catastrophe that began the end of the USSR</div>
+              </div>
+
+        <div class="activity-card">
+            <a target="_blank" href="../images/abandoned-red-car-parked-on-side-of-road-1257733.jpg">
+              <img src="/images/abandoned-red-car-parked-on-side-of-road-1257733.jpg" alt="Abandoned !" width="200" height="300">
+            </a>
+            <div class="activity-card-text">"Experience the savage birth of the USSR. The Bolshevik Revolution"</div>
+            </div>
+
+        <div class="activity-card">
+          <a target="_blank" href="/images/Marshal_Zhukov_at_1945_Moscow_Victory_Parade.jpg">
+            <img src="/images/Marshal_Zhukov_at_1945_Moscow_Victory_Parade.jpg" alt="??" width="200" height="300">
+          </a>
+          <div class="activity-card-text">Experience the Splendour of a time before the USSR</div>
         </div>
-        <div class = "activity-slide">
-          <img src = "images/st-basil-s-cathedral-3629813.jpg" alt="St Basil's Cathedral with Cherry Blossoms in front, Red Square, Moscow" style="width:100%; height: 50%">
+
+        <div class="activity-card">
+          <a target="_blank" href="/images/dreamy-woman-in-warm-wear-on-square-at-new-year-night-3810969.jpg">
+            <img src="/images/dreamy-woman-in-warm-wear-on-square-at-new-year-night-3810969.jpg" alt="??" width="200" height="300">
+          </a>
+          <div class="desc">Russian Festival Life</div>
         </div>
-      </div>
-      <div style="text-align:center">
-        <span class="slide-show-dot"></span> 
-        <span class="slide-show-dot"></span> 
-        <span class="slide-show-dot"></span> 
-      </div>
-    </div>
+
+      </section>
+    </section>
     
   </body>
   
