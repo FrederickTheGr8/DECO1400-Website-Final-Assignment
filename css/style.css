@@ -68,7 +68,6 @@ body {
 
 /* Main content */
 .main {
-  margin-top: 0px; /* Add a top margin to avoid content overlay */
 }
 
 /* When the width of the website window is 600px or below it removes the navbar links and adds the burger icon*/
@@ -132,11 +131,30 @@ body {
 .activities-header {
   text-align: left;
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 30%;
+  left: 40%;
   transform: translate(-50%, -40%);
   color: rgb(8, 224, 231);
   text-shadow: 2px 2px #000000;
+}
+
+.activities-header h1 {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.activities-header h2 {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.subactivity-header {
+  text-align: left;
+  top: 40%;
+  left: 60%;
+  color: rgb(8, 224, 231);
+  text-shadow: 1px 1px #000000;
+  padding-left: 40px;
 }
 
 .button1 {
@@ -224,22 +242,22 @@ body {
   padding-left: 10px;
   padding-right: 5px;
   text-align: left;
-  width: 100%;
+  width: 98%;
   overflow:auto;
   padding: 10px
 }
 .activity-text-left{
    float:left; 
-   width: 70vw;
-   padding-left: 5px;
-   padding-right: 10px;
+   width: 60vw;
+   padding-left: 40px;
+   padding-right: 20px;
  }
  .activity-text-left-indent{
    text-indent: 20px;
  }
 .activity-text-right{
-  float:right;
-  width: 25vw;
+  float:left;
+  width: 20vw;
   text-align: center;
 }
 
@@ -315,7 +333,6 @@ hr{
   max-width: 90%;
 }
 
-
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -348,4 +365,29 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 30px;
   border-radius: 8px;
+}
+
+.collapsible-text {
+  background-color: #656;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+}
+
+.active, .collapsible-text:hover {
+  background-color: rgba(5, 187, 211, 0.603);
+  color: black;
+}
+
+.collapsible-text-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
 }
