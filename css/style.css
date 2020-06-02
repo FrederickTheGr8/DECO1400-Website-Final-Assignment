@@ -347,12 +347,13 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
   color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  background-color: rgb(60, 185, 64);
   cursor: pointer;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 45x;
+  
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -371,10 +372,10 @@ input[type=submit]:hover {
   background-color: #656;
   color: white;
   outline: none;
-  cursor: pointer;
   border: none;
   padding: 18px;
   width: 100%;
+  cursor: pointer;
   text-align: left;
   font-size: 25px;
 }
@@ -390,4 +391,33 @@ input[type=submit]:hover {
     overflow: hidden;
     background-color: #f1f1f1;
   }
+
+#pripyatimage1 {
+  width: 75%;
+  margin-left: 50px;
+}
+
+#pripyatimage2 {
+  width: 75%;
+  margin-left: 50px;
+}
+
+#pripyatimage3 {
+  width: 75%;
+  margin-left: 50px;
+}
+
+#pripyatimage4 {
+  width: 75%;
+  margin-left: 50px;
+}
+
+#pripyatimage5 {
+  width: 75%;
+  margin-left: 50px;
+}
+
+#pripyatimage6 {
+  width: 75%;
+  margin-left: 50px;
 }
