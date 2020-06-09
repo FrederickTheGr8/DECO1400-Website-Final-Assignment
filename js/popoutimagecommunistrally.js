@@ -1,47 +1,54 @@
 var popoutimage = document.getElementById("popOutImage");
 
-var pripyatimage1 = document.getElementById("pripyatimage1");
-var pripyatimage2 = document.getElementById("pripyatimage2");
-var pripyatimage3 = document.getElementById("pripyatimage3");
-var pripyatimage4 = document.getElementById("pripyatimage4");
-var pripyatimage5 = document.getElementById("pripyatimage5");
-var pripyatimage6 = document.getElementById("pripyatimage6");
+var communistrallyimage1 = document.getElementById("communistrallyimage1");
+var communistrallyimage2 = document.getElementById("communistrallyimage2");
+var communistrallyimage3 = document.getElementById("communistrallyimage3");
+var communistrallyimage4 = document.getElementById("communistrallyimage4");
+var communistrallyimage5 = document.getElementById("communistrallyimage5");
+var communistrallyimage6 = document.getElementById("communistrallyimage6");
+var communistrallyimage7 = document.getElementById("communistrallyimage7");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-pripyatimage1.onclick= function(){
+communistrallyimage1.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
 
-pripyatimage2.onclick= function(){
+communistrallyimage2.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
 
-pripyatimage3.onclick= function(){
+communistrallyimage3.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
-pripyatimage4.onclick= function(){
+communistrallyimage4.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
   
-pripyatimage5.onclick= function(){
+communistrallyimage5.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
     
-pripyatimage6.onclick= function(){
+communistrallyimage6.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
+  }
+
+communistrallyimage7.onclick= function(){
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+    aptionText.innerHTML = this.alt;
   }
       
 var span = document.getElementsByClassName("close")[0];

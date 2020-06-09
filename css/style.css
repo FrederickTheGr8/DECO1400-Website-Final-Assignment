@@ -133,10 +133,10 @@ body {
   position: absolute;
   top: 30%;
   left: 40%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -20%);
   color: rgb(8, 224, 231);
   text-shadow: 2px 2px #000000;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .activities-header h1 {
@@ -155,7 +155,14 @@ body {
   left: 60%;
   color: rgb(8, 224, 231);
   text-shadow: 1px 1px #000000;
-  padding-left: 40px;
+  padding-left: 50px;
+  background-color: rgba(0,0,0,0.8);
+  font-size:3vw;
+}
+
+.subactivity-header h2 {
+  margin: 5px 0px 5px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .button1 {
@@ -397,6 +404,7 @@ input[type=submit]:hover {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    font-family: sans-serif;
   }
 
 #pripyatimage1 {
@@ -453,6 +461,62 @@ input[type=submit]:hover {
   width: 60%;
   margin-left: 50px;
 }
+
+#spaceraceimage1 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#spaceraceimage2 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#spaceraceimage3 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#spaceraceimage4 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage1 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage2 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage3 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage4 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage5 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage6 {
+  width: 60%;
+  margin-left: 50px;
+}
+
+#communistrallyimage7 {
+  width: 60%;
+  margin-left: 50px;
+}
+
 
 footer {
    left: 0;
