@@ -5,10 +5,14 @@ for (i = 0; i < collapsibletext.length; i++) {
     collapsibletext[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var core = this.nextElementSibling;
+
     if (core.style.display === "block") {
       core.style.display = "none";
-    } else {
+    } 
+    
+    else {
       core.style.display = "block";
     }
-  });
+  }
+  );
 }
