@@ -4,11 +4,11 @@ var i;
 for (i = 0; i < collapsibletext.length; i++) {
     collapsibletext[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
+    var core = this.nextElementSibling;
+    if (core.style.display === "block") {
+      core.style.display = "none";
     } else {
-      content.style.display = "block";
+      core.style.display = "block";
     }
   });
 }
