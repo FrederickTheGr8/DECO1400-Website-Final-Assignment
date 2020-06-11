@@ -1,44 +1,65 @@
 var popoutimage = document.getElementById("popOutImage");
 
-var pripyatimage1 = document.getElementById("pripyatimage1");
-var pripyatimage2 = document.getElementById("pripyatimage2");
-var pripyatimage3 = document.getElementById("pripyatimage3");
-var pripyatimage4 = document.getElementById("pripyatimage4");
-var pripyatimage5 = document.getElementById("pripyatimage5");
-var pripyatimage6 = document.getElementById("pripyatimage6");
+var coldwarimage1 = document.getElementById("coldwarimage1");
+var coldwarimage2 = document.getElementById("coldwarimage2");
+var coldwarimage3 = document.getElementById("coldwarimage3");
+var coldwarimage4 = document.getElementById("coldwarimage4");
+var coldwarimage5 = document.getElementById("coldwarimage5");
+var coldwarimage6 = document.getElementById("coldwarimage6");
+var coldwarimage7 = document.getElementById("coldwarimage7");
+var coldwarimage8 = document.getElementById("coldwarimage8");
+var coldwarimage9 = document.getElementById("coldwarimage9");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-pripyatimage1.onclick= function(){
+coldwarimage1.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
 
-pripyatimage2.onclick= function(){
+  coldwarimage2.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
 
-pripyatimage3.onclick= function(){
+  coldwarimage3.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
-pripyatimage4.onclick= function(){
+  coldwarimage4.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
   
-pripyatimage5.onclick= function(){
+  coldwarimage5.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
     
-pripyatimage6.onclick= function(){
+  coldwarimage6.onclick= function(){
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+  }
+
+  coldwarimage7.onclick= function(){
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+  }
+
+coldwarimage8.onclick= function(){
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+  }
+
+coldwarimage9.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;

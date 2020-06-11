@@ -4,6 +4,7 @@ var spaceraceimage1 = document.getElementById("spaceraceimage1");
 var spaceraceimage2 = document.getElementById("spaceraceimage2");
 var spaceraceimage3 = document.getElementById("spaceraceimage3");
 var spaceraceimage4 = document.getElementById("spaceraceimage4");
+var spaceraceimage5 = document.getElementById("spaceraceimage5");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
@@ -24,7 +25,14 @@ spaceraceimage3.onclick= function(){
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
+
 spaceraceimage4.onclick= function(){
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+  }
+
+spaceraceimage5.onclick= function(){
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;

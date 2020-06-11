@@ -1,10 +1,11 @@
 var popoutimage = document.getElementById("popOutImage");
 
-var pripyatimage1 = document.getElementById("chernobylimage1");
-var pripyatimage2 = document.getElementById("chernobylimage2");
-var pripyatimage3 = document.getElementById("chernobylimage3");
-var pripyatimage4 = document.getElementById("chernobylimage4");
-var pripyatimage5 = document.getElementById("chernobylimage5");
+var chernobylimage1 = document.getElementById("chernobylimage1");
+var chernobylimage2 = document.getElementById("chernobylimage2");
+var chernobylimage3 = document.getElementById("chernobylimage3");
+var chernobylimage4 = document.getElementById("chernobylimage4");
+var chernobylimage5 = document.getElementById("chernobylimage5");
+var chernobylimage6 = document.getElementById("chernobylimage5");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
@@ -36,6 +37,12 @@ chernobylimage5.onclick= function(){
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
   }
+
+  chernobylimage6.onclick= function(){
+    popoutimage.style.display = "block";
+    imagecontent.src = this.src;
+    captionText.innerHTML = this.alt;
+    }
     
 var span = document.getElementsByClassName("close")[0];
 
