@@ -208,7 +208,7 @@ body {
 }
 
 .activity-slide {
-  display: none;
+  display: block;
 }
 
 .activity-slide img {
@@ -291,6 +291,14 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin: 4px 2px;  
+}
+
+.book-now-button:hover{
+  background-color:rgb(255, 0, 0);
+}
+
+.book-now-button:active{
+  background-color:orange;
 }
 
 hr{
@@ -384,6 +392,8 @@ input[type=submit]:hover {
 
 .contact-form-container {
   background-color: #f2f2f2;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 30px;
   border-radius: 8px;
 }
@@ -407,7 +417,7 @@ input[type=submit]:hover {
 
 .collapsible-text-content {
     padding: 0 18px;
-    display: none;
+    display: block;
     overflow: hidden;
     background-color: #f1f1f1;
     font-family: sans-serif;

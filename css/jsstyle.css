@@ -293,6 +293,15 @@ body {
   margin: 4px 2px;  
 }
 
+.book-now-button:hover{
+  background-color:rgb(255, 0, 0);
+}
+
+.book-now-button:active{
+  background-color:orange;
+}
+
+
 hr{
   display: block;
   margin-top: 2px;
@@ -385,6 +394,8 @@ input[type=submit]:hover {
 .contact-form-container {
   background-color: #f2f2f2;
   padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
   border-radius: 8px;
 }
 
