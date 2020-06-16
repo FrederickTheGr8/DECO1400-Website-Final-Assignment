@@ -82,11 +82,11 @@ body {
 .homepage-image {
   /* Photo by Soviet Artefacts | https://unsplash.com/photos/bksS_c33rWM */
   background-image: url("../images/soviet-artefacts-bksS_c33rWM-unsplash.jpg");
+  background-repeat: no-repeat;
+  position: relative;
   height: 1006px;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .homepage-text {
@@ -328,14 +328,15 @@ hr{
 }
 
 #caption {
+  color: #ccc;
   margin: auto;
   display: block;
+  height: 150px;
   width: 80%;
   max-width: 700px;
-  text-align: center;
-  color: #ccc;
   padding: 10px 0;
-  height: 150px;
+  text-align: center;
+  
 }
 
 .activity-description{

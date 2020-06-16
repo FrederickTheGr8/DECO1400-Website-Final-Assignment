@@ -1,171 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript">
     document.write('<link rel="stylesheet" href="css/jsstyle.css" />');
-    </script>
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-    <script src="js/navigation.js"></script>
-    <title>Visiing Locals Tour</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  </head>
+  </script>
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <script src="js/navigation.js"></script>
+  <title>Visiing Locals Tour</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
 
-  <nav>
-    <section class="navbar" id = "TopNavBar">
-      <a href="index.html" class="active"><i class="fas fa-home"></i></a>
-      <a href="activities.html">Activities</a>
-      <a href="contact.html">Contact</a>
-      <a href="aboutus.html">About Us</a>
-      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </section>
-  </nav>
+<nav>
+  <section class="navbar" id="TopNavBar">
+    <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+    <a href="activities.html">Activities</a>
+    <a href="contact.html">Contact</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </section>
+</nav>
 
-  <body>
-    <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i class="fas fa-arrow-circle-up"></i></button>
-    
-    <script src="js/navigation.js"></script>
+<body>
+  <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i
+      class="fas fa-arrow-circle-up"></i></button>
 
-    
-    <section class="main">
-      <div class="subactivity-header">
-        <h2>Visit Locals & Participate in Festivities</h2>
+  <script src="js/navigation.js"></script>
+
+
+  <section class="main">
+    <div class="subactivity-header">
+      <h2>Visit Locals & Participate in Festivities</h2>
+    </div>
+    <section class="slide-show-container">
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/ВА_Вальцефер_Ланская_Литография_30х60_1960.jpg"
+          alt="Walcefer Lanskaya Lithography 1960, Depicting Russian locals with skiis | Виктор Вальцефер/Юлия Вальцефер / CC BY-SA (https://commons.wikimedia.org/wiki/File:ВА_Вальцефер_Ланская_Литография_30х60_1960.jpg)"
+          id="visitlocalsimage1">
       </div>
-      <section class = "slide-show-container">
-        <div class = "activity-slide">
-            <img src = "images/slides-visitlocals/ВА_Вальцефер_Ланская_Литография_30х60_1960.jpg" alt="Walcefer Lanskaya Lithography 1960, Depicting Russian locals with skiis | Виктор Вальцефер/Юлия Вальцефер / CC BY-SA (https://commons.wikimedia.org/wiki/File:ВА_Вальцефер_Ланская_Литография_30х60_1960.jpg)" id = "visitlocalsimage1">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/Б.А._Ефлов_и_В.А._Анисимова_до_свадьбы,_1950_год.jpg" alt="
-          B.A. Eflov and V.A. Anisimova before the wedding, 1950 | А. И. Бузин / CC BY-SA (https://commons.wikimedia.org/wiki/File:Б.А._Ефлов_и_В.А._Анисимова_до_свадьбы,_1950_год.jpg)" id = "visitlocalsimage2">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/alexander-popov-VLBB3CmFvmE-unsplash.jpg" alt="Club scene in Moscow, Russia | Photo by Alexander Popov https://unsplash.com/photos/VLBB3CmFvmE"  id = "visitlocalsimage3">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/daniil-silantev-fbOEGet9EfE-unsplash.jpg" alt="Crowd of people at a market, Red Square, Moscow, Russia | Photo by Daniil Silantev https://unsplash.com/photos/fbOEGet9EfE" id = "visitlocalsimage4">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/colorful-carousel-with-fabulous-ponies-in-amusement-park-at-3811010.jpg" alt="Colorful carousel with fabulous ponies in amusement park at night, Moscow, Russia | Photo by Elly Fairtale https://www.pexels.com/photo/colorful-carousel-with-fabulous-ponies-in-amusement-park-at-night-3811010/" id = "visitlocalsimage5">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/dreamy-woman-in-warm-wear-on-square-at-new-year-night-3810969.jpg" alt="Woman in warm wear on square at New Year Night, Moscow, Russia | Photo by Elly Fairtale https://www.pexels.com/photo/dreamy-woman-in-warm-wear-on-square-at-new-year-night-3810969/" id = "visitlocalsimage6">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/grayscale-photography-of-bottle-beside-saucer-745875.jpg" alt="Russians enjoying a meal with Vodka | Photo by Simon Matzinger https://www.pexels.com/photo/grayscale-photography-of-bottle-beside-saucer-745875/" id = "visitlocalsimage7">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/gray-wooden-house-burning-731577.jpg" alt="Gray wooden house with fireplace burning in the middle of winter, Khuzhir, Russia | Photo by Simon Matzinger https://www.pexels.com/photo/gray-wooden-house-burning-731577/" id = "visitlocalsimage8">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/historic-center-russia-red-square-moscow-92412.jpg" alt="Historic Red Square Center in Moscow, Russia | Photo by Lubov Tandit https://www.pexels.com/photo/historic-center-russia-red-square-moscow-92412/" id = "visitlocalsimage9">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/man-holding-surfboard-1553958.jpg" alt="Man holding surfboard over bank at the beach, Russia | Photo by Yaroslav Shuraev https://www.pexels.com/photo/man-holding-surfboard-1553958/" id = "visitlocalsimage10">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/people-walking-on-sand-3341152.jpg" alt="People walking on the sand at the beach | Photo by Anastasia Golovina https://www.pexels.com/photo/people-walking-on-sand-3341152/" id = "visitlocalsimage11">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/photo-of-woman-dancing-with-saint-basil-s-cathedral-in-1919077.jpg" alt="Woman dancing with Saint Basil's Cathedral in the Background, Moscow, Russia | Photo by Arthur Abdurashitov https://www.pexels.com/photo/photo-of-woman-dancing-with-saint-basil-s-cathedral-in-moscow-russia-in-the-background-1919077/" id = "visitlocalsimage12">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-visitlocals/Serbian_Christmas_meal.jpg" alt="Serbian Christmas meal, grilled pork, bajadera sweets, dzadziki salad, olivier salad and Mavrud dry red wine | Petar Milošević / CC BY-SA (https://commons.wikimedia.org/wiki/File:Serbian_Christmas_meal.jpg) " id = "visitlocalsimage13">
-        </div>
-        <div id="popOutImage" class="pop-out-image">
-          <span class="close">&times;</span>
-          <img class="pop-out-image-content" id ="imagecontent">
-          <div id="caption"></div>
-          <script src="js/popoutimagevisitlocals.js"></script>
-        </div>
-      </section>
-      <div style="clear:initial"></div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/Б.А._Ефлов_и_В.А._Анисимова_до_свадьбы,_1950_год.jpg"
+          alt="
+          B.A. Eflov and V.A. Anisimova before the wedding, 1950 | А. И. Бузин / CC BY-SA (https://commons.wikimedia.org/wiki/File:Б.А._Ефлов_и_В.А._Анисимова_до_свадьбы,_1950_год.jpg)"
+          id="visitlocalsimage2">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/alexander-popov-VLBB3CmFvmE-unsplash.jpg"
+          alt="Club scene in Moscow, Russia | Photo by Alexander Popov https://unsplash.com/photos/VLBB3CmFvmE"
+          id="visitlocalsimage3">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/daniil-silantev-fbOEGet9EfE-unsplash.jpg"
+          alt="Crowd of people at a market, Red Square, Moscow, Russia | Photo by Daniil Silantev https://unsplash.com/photos/fbOEGet9EfE"
+          id="visitlocalsimage4">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/colorful-carousel-with-fabulous-ponies-in-amusement-park-at-3811010.jpg"
+          alt="Colorful carousel with fabulous ponies in amusement park at night, Moscow, Russia | Photo by Elly Fairtale https://www.pexels.com/photo/colorful-carousel-with-fabulous-ponies-in-amusement-park-at-night-3811010/"
+          id="visitlocalsimage5">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/dreamy-woman-in-warm-wear-on-square-at-new-year-night-3810969.jpg"
+          alt="Woman in warm wear on square at New Year Night, Moscow, Russia | Photo by Elly Fairtale https://www.pexels.com/photo/dreamy-woman-in-warm-wear-on-square-at-new-year-night-3810969/"
+          id="visitlocalsimage6">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/grayscale-photography-of-bottle-beside-saucer-745875.jpg"
+          alt="Russians enjoying a meal with Vodka | Photo by Simon Matzinger https://www.pexels.com/photo/grayscale-photography-of-bottle-beside-saucer-745875/"
+          id="visitlocalsimage7">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/gray-wooden-house-burning-731577.jpg"
+          alt="Gray wooden house with fireplace burning in the middle of winter, Khuzhir, Russia | Photo by Simon Matzinger https://www.pexels.com/photo/gray-wooden-house-burning-731577/"
+          id="visitlocalsimage8">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/historic-center-russia-red-square-moscow-92412.jpg"
+          alt="Historic Red Square Center in Moscow, Russia | Photo by Lubov Tandit https://www.pexels.com/photo/historic-center-russia-red-square-moscow-92412/"
+          id="visitlocalsimage9">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/man-holding-surfboard-1553958.jpg"
+          alt="Man holding surfboard over bank at the beach, Russia | Photo by Yaroslav Shuraev https://www.pexels.com/photo/man-holding-surfboard-1553958/"
+          id="visitlocalsimage10">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/people-walking-on-sand-3341152.jpg"
+          alt="People walking on the sand at the beach | Photo by Anastasia Golovina https://www.pexels.com/photo/people-walking-on-sand-3341152/"
+          id="visitlocalsimage11">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/photo-of-woman-dancing-with-saint-basil-s-cathedral-in-1919077.jpg"
+          alt="Woman dancing with Saint Basil's Cathedral in the Background, Moscow, Russia | Photo by Arthur Abdurashitov https://www.pexels.com/photo/photo-of-woman-dancing-with-saint-basil-s-cathedral-in-moscow-russia-in-the-background-1919077/"
+          id="visitlocalsimage12">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-visitlocals/Serbian_Christmas_meal.jpg"
+          alt="Serbian Christmas meal, grilled pork, bajadera sweets, dzadziki salad, olivier salad and Mavrud dry red wine | Petar Milošević / CC BY-SA (https://commons.wikimedia.org/wiki/File:Serbian_Christmas_meal.jpg) "
+          id="visitlocalsimage13">
+      </div>
+      <div id="popOutImage" class="pop-out-image">
+        <span class="close">&times;</span>
+        <img class="pop-out-image-content" id="imagecontent">
+        <div id="caption"></div>
+        <script src="js/popoutimagevisitlocals.js"></script>
+      </div>
+    </section>
+    <div style="clear:initial"></div>
 
-      <div class="activity-text">
-        <div class="activity-text-left">
-          <div class = "activity-description">
-            <h3>Meet the lovely inhabitants of Soviet Russia, immerse yourself in their culture and paritcipate in festivities with them.</h3>
-          </div>
-          
-          <button type="button" class="collapsible-text">About this tour <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p><i class="fas fa-history"></i> Duration : 3 days</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Experience <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p><ul>
+    <div class="activity-text">
+      <div class="activity-text-left">
+        <div class="activity-description">
+          <h3>Meet the lovely inhabitants of Soviet Russia, immerse yourself in their culture and paritcipate in
+            festivities with them.</h3>
+        </div>
+
+        <button type="button" class="collapsible-text">About this tour <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p><i class="fas fa-history"></i> Duration : 3 days</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Experience <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>
+            <ul>
               <li>Meet locals and chat with them using our universal translator</li>
               <li>Join in festivities and special occasions throughout the history of the Soviet Union</li>
               <li>Immerse yourself in Soviet culture from the inside</li>
               <li>Learn how Soviet citizens unwind by partying and sharing meals with them</li>
               <li>Find out what sports the Russians love, and join in on the fun.</li>
-            </p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Full description <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p>"People of the Soviet Union" is a vast umbrella, ranging from just about every religion, culture and ethnicity on Earth. This tour will give you a sense of what it was like to live under the Soviet Union, from many different perspetives ranging from the citizens of East Berlin to Vladivostok. Life is hard for many citizens of the Soviet Union, you will witness the ups and downs the USSR.</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Inclusions <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p style="margin-left:30px">
-              <i class="far fa-check-circle"></i> A guaranteed date and time for your tour<br/>
-              <i class="far fa-check-circle"></i> Everything you need<br/>
-              <i class="far fa-check-circle"></i> Sleeping arrangements will be prearranged<br/>
-              <i class="far fa-check-circle"></i> All food and drink is supplied for the duration of the tour<br/>
-              <i class="far fa-check-circle"></i> Due to to the extreme nature of the content of this tour you will be required to particiapte in a special training session before your tour and a personal de-briefing after your tour.<br/>
-              <i class="far fa-times-circle"></i> Transportation to and from the Time Extraction facility<br/>
-              <i class="far fa-times-circle"></i> If your are detained in time. Any additonal extraction costs required for remote extraction are not inluded<br/>
-             </p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Location <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-              <p>All over the Soviet Union</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">What to bring <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p style="margin-left:30px">
-                <p> What to bring</p>
-          <p>
-            <ul>
-              <li>Your registered electronic ticket</li>
-              <li>Proof of identity</li>
-              <li>Yourself and a sense of adventure. That's all you need</li>
-              <li>We will provide everything you need from appropriate dress to automated high quality hidden recording devices</li>
-            </ul>
           </p>
-          <p>What NOT to bring</p>
-            <ul>
-              <li>A Bad Attitude - Remember you will really be in the USSR in the 20th Century. We are not responsible for any negative outcomes caused by your behaviour. Remote extractions are also more difficult and not covered by your tickets costs</li>
-              <li>Your Universal Translator. We will provide all translation equipment. We cannot have inexperienced verbal contact with people living in the past. Our guides are trained experts.</li>
-              <li>If there is anything you want to bring you must check with your guide first. Contraband will lead to the immediate cancellation of your tour.</li>
-            </ul>
-          </p>
-             </p>
-          </div>
         </div>
-        <div class="activity-text-right">
-          <h2> $500 per person</h2>
-          <a href="booknow.html" class="book-now-button">Book Now</a>
+        <hr>
+        <button type="button" class="collapsible-text">Full description <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>"People of the Soviet Union" is a vast umbrella, ranging from just about every religion, culture and
+            ethnicity on Earth. This tour will give you a sense of what it was like to live under the Soviet Union, from
+            many different perspetives ranging from the citizens of East Berlin to Vladivostok. Life is hard for many
+            citizens of the Soviet Union, you will witness the ups and downs the USSR.</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Inclusions <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p style="margin-left:30px">
+            <i class="far fa-check-circle"></i> A guaranteed date and time for your tour<br />
+            <i class="far fa-check-circle"></i> Everything you need<br />
+            <i class="far fa-check-circle"></i> Sleeping arrangements will be prearranged<br />
+            <i class="far fa-check-circle"></i> All food and drink is supplied for the duration of the tour<br />
+            <i class="far fa-check-circle"></i> Due to to the extreme nature of the content of this tour you will be
+            required to particiapte in a special training session before your tour and a personal de-briefing after your
+            tour.<br />
+            <i class="far fa-times-circle"></i> Transportation to and from the Time Extraction facility<br />
+            <i class="far fa-times-circle"></i> If your are detained in time. Any additonal extraction costs required
+            for remote extraction are not inluded<br />
+          </p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Location <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>All over the Soviet Union</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">What to bring <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p style="margin-left:30px">
+            <p> What to bring</p>
+            <p>
+              <ul>
+                <li>Your registered electronic ticket</li>
+                <li>Proof of identity</li>
+                <li>Yourself and a sense of adventure. That's all you need</li>
+                <li>We will provide everything you need from appropriate dress to automated high quality hidden
+                  recording devices</li>
+              </ul>
+            </p>
+            <p>What NOT to bring</p>
+            <ul>
+              <li>A Bad Attitude - Remember you will really be in the USSR in the 20th Century. We are not responsible
+                for any negative outcomes caused by your behaviour. Remote extractions are also more difficult and not
+                covered by your tickets costs</li>
+              <li>Your Universal Translator. We will provide all translation equipment. We cannot have inexperienced
+                verbal contact with people living in the past. Our guides are trained experts.</li>
+              <li>If there is anything you want to bring you must check with your guide first. Contraband will lead to
+                the immediate cancellation of your tour.</li>
+            </ul>
+          </p>
+          </p>
         </div>
       </div>
-      <div style="clear:both"></div>
+      <div class="activity-text-right">
+        <h2> $500 per person</h2>
+        <a href="booknow.html" class="book-now-button">Book Now</a>
+      </div>
+    </div>
+    <div style="clear:both"></div>
 
-    </section>
-    
-  </body>
+  </section>
+
+</body>
 
 
 <script src="js/collapsibletext.js"></script>
 <script src="js/slideshow.js"></script>
-<script>getSlides();</script>
+<script>
+  getSlides();
+</script>
+
 </html>

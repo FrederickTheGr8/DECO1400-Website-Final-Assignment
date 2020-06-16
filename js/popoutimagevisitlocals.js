@@ -17,86 +17,86 @@ var visitlocalsimage13 = document.getElementById("visitlocalsimage13");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-visitlocalsimage1.onclick= function(){
+visitlocalsimage1.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage2.onclick= function(){
+visitlocalsimage2.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage3.onclick= function(){
+visitlocalsimage3.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-visitlocalsimage4.onclick= function(){
+}
+visitlocalsimage4.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  
-visitlocalsimage5.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
-    
-visitlocalsimage6.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage7.onclick= function(){
+visitlocalsimage5.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage8.onclick= function(){
+visitlocalsimage6.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage9.onclick= function(){
+visitlocalsimage7.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage10.onclick= function(){
+visitlocalsimage8.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage11.onclick= function(){
+visitlocalsimage9.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage12.onclick= function(){
+visitlocalsimage10.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-visitlocalsimage13.onclick= function(){
+visitlocalsimage11.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
+
+visitlocalsimage12.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+visitlocalsimage13.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
 
 
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function () {
   popoutimage.style.display = "none";
 }

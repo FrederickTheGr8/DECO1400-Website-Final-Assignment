@@ -1,159 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript">
     document.write('<link rel="stylesheet" href="css/jsstyle.css" />');
-    </script>
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-    <script src="js/navigation.js"></script>
-    <title>Cold War Guided Tour</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  </head>
+  </script>
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <script src="js/navigation.js"></script>
+  <title>Cold War Guided Tour</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
 
-  <nav>
-    <section class="navbar" id = "TopNavBar">
-      <a href="index.html" class="active"><i class="fas fa-home"></i></a>
-      <a href="activities.html">Activities</a>
-      <a href="contact.html">Contact</a>
-      <a href="aboutus.html">About Us</a>
-      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </section>
-  </nav>
+<nav>
+  <section class="navbar" id="TopNavBar">
+    <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+    <a href="activities.html">Activities</a>
+    <a href="contact.html">Contact</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </section>
+</nav>
 
-  <body>
+<body>
 
-    <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i class="fas fa-arrow-circle-up"></i></button>
-    
-    <script src="js/navigation.js"></script>
+  <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i
+      class="fas fa-arrow-circle-up"></i></button>
 
-    
-    <section class="main">
-      <div class="subactivity-header">
-        <h2>Cold War Guided Tour</h2>
+  <script src="js/navigation.js"></script>
+
+
+  <section class="main">
+    <div class="subactivity-header">
+      <h2>Cold War Guided Tour</h2>
+    </div>
+    <section class="slide-show-container">
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/science-in-hd-Oefw_Xex-Sw-unsplash.jpg"
+          alt="Nuclear explosion | Photo by Science in HD https://unsplash.com/photos/Oefw_Xex-Sw" id="coldwarimage1">
       </div>
-      <section class = "slide-show-container">
-        <div class = "activity-slide">
-            <img src = "images/slides-coldwar/science-in-hd-Oefw_Xex-Sw-unsplash.jpg" alt="Nuclear explosion | Photo by Science in HD https://unsplash.com/photos/Oefw_Xex-Sw" id = "coldwarimage1">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/andrew-amistad-4dGRiOoqudg-unsplash.jpg" alt="Person walking through abandoned hallway | Photo by Andrew Armistad https://unsplash.com/photos/4dGRiOoqudg" id = "coldwarimage2">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/2015-10-23-roman-005.jpg" alt="Abandoned military bunker | https://barnimages.com/underground-german-bunker/" id = "coldwarimage3">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/ilja-nedilko-aYvdJEGdsRc-unsplash.jpg" alt="Radiation sign at the site of the Duga radar | Photo by Ilja Nedilko https://unsplash.com/photos/aYvdJEGdsRc  " id = "coldwarimage4">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/ilja-nedilko-g6kfkNyoAAE-unsplash.jpg" alt="Russian sign | Photo by Ilja Nedilko https://unsplash.com/photos/g6kfkNyoAAE" id = "coldwarimage5">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/kev-seto-Jv0TBnjzYNM-unsplash.jpg" alt="Dilapidated exit sign on the floor of an abandoned factory | Photo by Kev Seto https://unsplash.com/photos/Jv0TBnjzYNM" id = "coldwarimage6">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/patrick-tomasso-uThLDG9Y4ms-unsplash.jpg" alt="Man walking through abandoned factory | Photo by Patrick Tomasso https://unsplash.com/photos/uThLDG9Y4ms" id = "coldwarimage7">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/science-in-hd-MAoGpZ42NZM-unsplash.jpg" alt="Nuclear explosion over the bikini atoll | Photo by Science in HD https://unsplash.com/photos/MAoGpZ42NZM" id = "coldwarimage8">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-coldwar/nuclear-weapons-test-67557.jpg" alt="Nuclear weapons test off an island | Photo by WikiImages https://pixabay.com/photos/nuclear-weapons-test-nuclear-weapon-67557/" id = "coldwarimage9">
-        </div>
-        <div id="popOutImage" class="pop-out-image">
-          <span class="close">&times;</span>
-          <img class="pop-out-image-content" id ="imagecontent">
-          <div id="caption"></div>
-          <script src="js/popoutimagecoldwar.js"></script>
-        </div>
-      </section>
-      <div style="clear:initial"></div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/andrew-amistad-4dGRiOoqudg-unsplash.jpg"
+          alt="Person walking through abandoned hallway | Photo by Andrew Armistad https://unsplash.com/photos/4dGRiOoqudg"
+          id="coldwarimage2">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/2015-10-23-roman-005.jpg"
+          alt="Abandoned military bunker | https://barnimages.com/underground-german-bunker/" id="coldwarimage3">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/ilja-nedilko-aYvdJEGdsRc-unsplash.jpg"
+          alt="Radiation sign at the site of the Duga radar | Photo by Ilja Nedilko https://unsplash.com/photos/aYvdJEGdsRc  "
+          id="coldwarimage4">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/ilja-nedilko-g6kfkNyoAAE-unsplash.jpg"
+          alt="Russian sign | Photo by Ilja Nedilko https://unsplash.com/photos/g6kfkNyoAAE" id="coldwarimage5">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/kev-seto-Jv0TBnjzYNM-unsplash.jpg"
+          alt="Dilapidated exit sign on the floor of an abandoned factory | Photo by Kev Seto https://unsplash.com/photos/Jv0TBnjzYNM"
+          id="coldwarimage6">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/patrick-tomasso-uThLDG9Y4ms-unsplash.jpg"
+          alt="Man walking through abandoned factory | Photo by Patrick Tomasso https://unsplash.com/photos/uThLDG9Y4ms"
+          id="coldwarimage7">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/science-in-hd-MAoGpZ42NZM-unsplash.jpg"
+          alt="Nuclear explosion over the bikini atoll | Photo by Science in HD https://unsplash.com/photos/MAoGpZ42NZM"
+          id="coldwarimage8">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-coldwar/nuclear-weapons-test-67557.jpg"
+          alt="Nuclear weapons test off an island | Photo by WikiImages https://pixabay.com/photos/nuclear-weapons-test-nuclear-weapon-67557/"
+          id="coldwarimage9">
+      </div>
+      <div id="popOutImage" class="pop-out-image">
+        <span class="close">&times;</span>
+        <img class="pop-out-image-content" id="imagecontent">
+        <div id="caption"></div>
+        <script src="js/popoutimagecoldwar.js"></script>
+      </div>
+    </section>
+    <div style="clear:initial"></div>
 
-      <div class="activity-text">
-        <div class="activity-text-left">
-          <div class = "activity-description">
-            <h3>Witness the Cold War from the perspective of the USSR. See the weapons and their aparatuses that could have ended the world as we know it.</h3>
-          </div>
-          
-          
-          <button type="button" class="collapsible-text">Duration <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p><i class="fas fa-history"></i> 7 hours</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Experience <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p><ul>
-              <li>Witness the destructive might of a Nuclear weapons test</li>
-              <li>Visit a bunker on the edge of the DMZ in East Germany </li>
-              <li>Witness the construction of the infamous Duga Radar that plagued radio transmissions across Europe</li>
-              <li>Interact with soldiers across the Soviet Union to get their perspective</li>
-              <li>See the Tsar Bomba explosion, the most powerful nuclear weapon ever created</li>
-              <li>Pose with bribed soldiers guarding the Berlin Wall for a picture to take home</li></p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Full description <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p>The Cold War was a political rivalry between the United States and the Soviet Union and their allies after World War 2, and lasted until the collapse of the Soviet Union in 1991. Both super states were capable of annihilating the other due to the advent of the Nuclear weapon. At its height the citizens of every country were under the constant threat of Nuclear War and the potential end of the world.</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Inclusions <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p style="margin-left:30px">
-              <i class="far fa-check-circle"></i> A guaranteed date and time for your tour<br/>
-              <i class="far fa-check-circle"></i> Everything you need<br/>
-              <i class="far fa-check-circle"></i> All food and drink is supplied for the day<br/>
-              <i class="far fa-check-circle"></i> Due to to the extreme nature of the content of this tour you will be required to particiapte in a special training session before your tour and a personal de-briefing after your tour.<br/>
-              <i class="far fa-times-circle"></i> Transportation to and from the Time Extraction facility<br/>
-              <i class="far fa-times-circle"></i> If your are detained in time. Any additonal extraction costs required for remote extraction are not inluded<br/>
-             </p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Location <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-              <p>All over the Soviet Union</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">What to bring <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p style="margin-left:30px">
-                <p> What to bring</p>
+    <div class="activity-text">
+      <div class="activity-text-left">
+        <div class="activity-description">
+          <h3>Witness the Cold War from the perspective of the USSR. See the weapons and their aparatuses that could
+            have ended the world as we know it.</h3>
+        </div>
+
+
+        <button type="button" class="collapsible-text">Duration <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p><i class="fas fa-history"></i> 7 hours</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Experience <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
           <p>
             <ul>
-              <li>Your registered electronic ticket</li>
-              <li>Proof of identity</li>
-              <li>Yourself and a sense of adventure. That's all you need</li>
-              <li>We will provide everything you need from appropriate dress to automated high quality hidden recording devices</li>
-            </ul>
+              <li>Witness the destructive might of a Nuclear weapons test</li>
+              <li>Visit a bunker on the edge of the DMZ in East Germany </li>
+              <li>Witness the construction of the infamous Duga Radar that plagued radio transmissions across Europe
+              </li>
+              <li>Interact with soldiers across the Soviet Union to get their perspective</li>
+              <li>See the Tsar Bomba explosion, the most powerful nuclear weapon ever created</li>
+              <li>Pose with bribed soldiers guarding the Berlin Wall for a picture to take home</li>
           </p>
-          <p>What NOT to bring</p>
-            <ul>
-              <li>A Bad Attitude - Remember you will really be in the USSR in the 20th Century. We are not responsible for any negative outcomes caused by your behaviour. Remote extractions are also more difficult and not covered by your tickets costs</li>
-              <li>Your Universal Translator. We will provide all translation equipment. We cannot have inexperienced verbal contact with people living in the past. Our guides are trained experts.</li>
-              <li>If there is anything you want to bring you must check with your guide first. Contraband will lead to the immediate cancellation of your tour.</li>
-            </ul>
-          </p>
-             </p>
-          </div>
         </div>
-        <div class="activity-text-right">
-          <h2> $150 per person</h2>
-          <a href="booknow.html" class="book-now-button">Book Now</a>
+        <hr>
+        <button type="button" class="collapsible-text">Full description <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>The Cold War was a political rivalry between the United States and the Soviet Union and their allies after
+            World War 2, and lasted until the collapse of the Soviet Union in 1991. Both super states were capable of
+            annihilating the other due to the advent of the Nuclear weapon. At its height the citizens of every country
+            were under the constant threat of Nuclear War and the potential end of the world.</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Inclusions <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p style="margin-left:30px">
+            <i class="far fa-check-circle"></i> A guaranteed date and time for your tour<br />
+            <i class="far fa-check-circle"></i> Everything you need<br />
+            <i class="far fa-check-circle"></i> All food and drink is supplied for the day<br />
+            <i class="far fa-check-circle"></i> Due to to the extreme nature of the content of this tour you will be
+            required to particiapte in a special training session before your tour and a personal de-briefing after your
+            tour.<br />
+            <i class="far fa-times-circle"></i> Transportation to and from the Time Extraction facility<br />
+            <i class="far fa-times-circle"></i> If your are detained in time. Any additonal extraction costs required
+            for remote extraction are not inluded<br />
+          </p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Location <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>All over the Soviet Union</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">What to bring <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p style="margin-left:30px">
+            <p> What to bring</p>
+            <p>
+              <ul>
+                <li>Your registered electronic ticket</li>
+                <li>Proof of identity</li>
+                <li>Yourself and a sense of adventure. That's all you need</li>
+                <li>We will provide everything you need from appropriate dress to automated high quality hidden
+                  recording devices</li>
+              </ul>
+            </p>
+            <p>What NOT to bring</p>
+            <ul>
+              <li>A Bad Attitude - Remember you will really be in the USSR in the 20th Century. We are not responsible
+                for any negative outcomes caused by your behaviour. Remote extractions are also more difficult and not
+                covered by your tickets costs</li>
+              <li>Your Universal Translator. We will provide all translation equipment. We cannot have inexperienced
+                verbal contact with people living in the past. Our guides are trained experts.</li>
+              <li>If there is anything you want to bring you must check with your guide first. Contraband will lead to
+                the immediate cancellation of your tour.</li>
+            </ul>
+          </p>
+          </p>
         </div>
       </div>
-      <div style="clear:both"></div>
+      <div class="activity-text-right">
+        <h2> $150 per person</h2>
+        <a href="booknow.html" class="book-now-button">Book Now</a>
+      </div>
+    </div>
+    <div style="clear:both"></div>
 
-    </section>
-    
-  </body>
+  </section>
+
+</body>
 
 
 <script src="js/collapsibletext.js"></script>
 <script src="js/slideshow.js"></script>
-<script>getSlides();</script>
+<script>
+  getSlides();
+</script>
+
 </html>

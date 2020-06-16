@@ -1,123 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" />
-    <script type="text/javascript">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript">
     document.write('<link rel="stylesheet" href="css/jsstyles.css" />');
-    </script>
-    <script src="js/navigation.js"></script>
-    <title>Activities</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  </head>
+  </script>
+  <script src="js/navigation.js"></script>
+  <title>Activities</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
 
-  <nav>
-    <section class="navbar" id = "TopNavBar">
-      <a href="index.html" class="active"><i class="fas fa-home"></i></a>
-      <a href="activities.html">Activities</a>
-      <a href="contact.html">Contact</a>
-      <a href="aboutus.html">About Us</a>
-      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </section>
-  </nav>
-  <body>
-    
+<nav>
+  <section class="navbar" id="TopNavBar">
+    <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+    <a href="activities.html">Activities</a>
+    <a href="contact.html">Contact</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </section>
+</nav>
 
-    <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i class="fas fa-arrow-circle-up"></i></button>
-    
-    <script src="js/navigation.js"></script>
+<body>
 
-    
-    <section class="main">
-      <header>
-      <section class = "slide-show-container">
+
+  <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i
+      class="fas fa-arrow-circle-up"></i></button>
+
+  <script src="js/navigation.js"></script>
+
+
+  <section class="main">
+    <header>
+      <section class="slide-show-container">
         <div class="activities-header">
           <h1 style="font-size:5vw">Activities</h1>
-          <h2 style="font-size:3vw">With cutting edge Time Travel technology and our expert tour guides, witness the history of the Soviet Union first-hand</h2>
+          <h2 style="font-size:3vw">With cutting edge Time Travel technology and our expert tour guides, witness the
+            history of the Soviet Union first-hand</h2>
         </div>
-          <div class = "activity-slide">
-            <img id = "surfer" src = "images/slides/widesurfboarder.jpg" alt="Man holding surfboard over bank at the beach, Russia | Photo by Yaroslav Shuraev https://www.pexels.com/photo/man-holding-surfboard-1553958/">
-          </div>
-          
-          <div class = "activity-slide">
-            <img id = "redsquare" src = "images/slides/wideredsquare.jpg" alt="Historic Red Square Center in Moscow, Russia | Photo by Lubov Tandit https://www.pexels.com/photo/historic-center-russia-red-square-moscow-92412/">
-          </div>
-          <div class = "activity-slide">
-            <img id = "widevodka" src = "images/slides/widevodka.jpg" alt="Russians enjoying a meal with Vodka | Photo by Simon Matzinger https://www.pexels.com/photo/grayscale-photography-of-bottle-beside-saucer-745875/">
-          </div>
-          <div id="popOutImage" class="pop-out-image">
-            <span class="close">&times;</span>
-            <img class="pop-out-image-content" id ="imagecontent">
-            <div id="caption"></div>
-          </div>
-        </section>
-      </header>
+        <div class="activity-slide">
+          <img id="surfer" src="images/slides/widesurfboarder.jpg"
+            alt="Man holding surfboard over bank at the beach, Russia | Photo by Yaroslav Shuraev https://www.pexels.com/photo/man-holding-surfboard-1553958/">
+        </div>
 
-      <script src="js/popoutimage.js"></script>
-
-      <section class="activity-card-container">
-          <a href="activity-pripyat.html">
-          <div class="activity-card">
-              <img src="images/activity-cards/3669818.png" alt="Room in Pripyat with abandoned gas mask through the frame of a broken TV, rubble littering the floor" width="200" height="300">
-            <div class="activity-card-text">Pripyat Guided Tour, before and after the destruction of Chernobyl</div>
-            </div>
-          </a>
-
-          <a href="activity-chernobyl.html">
-            <div class="activity-card">
-                <img src="images/activity-cards/1374515.png" alt="Statue of hands outside of the Chernobyl Power Plant, post sarcophagus" width="200" height="300">
-              
-              <div class="activity-card-text">Chernobyl Guided Tour, the event that signalled the end of USSR</div>
-            </div>
-            </a>
-
-            <a href="activity-spacerace.html">
-            <div class="activity-card">
-              
-              <img src="images/activity-cards/cosmonaut-space-suit-193782.jpg" alt="Russian Cosmonaut helmet" width="200" height="300">
-              
-              <div class="activity-card-text">Witness the Space Race in real time, from USSR's perspective</div>
-            </div>
-          </a>
-
-          <a href="activity-communistrally.html">
-            <div class="activity-card">
-              
-              <img src="images/activity-cards/victory-day-3393148.jpg" alt="Girl dressed in WW2 military garb participating in a Victory Day Parade" width="200" height="300">
-              
-              <div class="activity-card-text">Participate in a communist rally, witness the might of the USSR</div>
-            </div>
-          </a>
-
-          <a href="activity-visitlocals.html">
-            <div class="activity-card">
-              
-              <img src="images/activity-cards/photo-of-woman-dancing-with-saint-basil-s-cathedral-in-1919077.jpg" alt="Girl posing in front of the Saint Basil's Cathedral" width="200" height="300">
-              
-              <div class="activity-card-text">Immerse yourself in Soviet culture & break bread with locals</div>
-            </div>
-          </a>
-
-          <a href="activity-coldwar.html">
-            <div class="activity-card">
-              
-              <img src="images/activity-cards/nuclear-weapons-test-67557.jpg" alt="Nuclear weapons test detonated off the coast of an Island" width="200" height="300">
-              
-              <div class="activity-card-text">Cold War Guided Tour, see how life as we know it nearly ended</div>
-            </div>
-          </a>
-
+        <div class="activity-slide">
+          <img id="redsquare" src="images/slides/wideredsquare.jpg"
+            alt="Historic Red Square Center in Moscow, Russia | Photo by Lubov Tandit https://www.pexels.com/photo/historic-center-russia-red-square-moscow-92412/">
+        </div>
+        <div class="activity-slide">
+          <img id="widevodka" src="images/slides/widevodka.jpg"
+            alt="Russians enjoying a meal with Vodka | Photo by Simon Matzinger https://www.pexels.com/photo/grayscale-photography-of-bottle-beside-saucer-745875/">
+        </div>
+        <div id="popOutImage" class="pop-out-image">
+          <span class="close">&times;</span>
+          <img class="pop-out-image-content" id="imagecontent">
+          <div id="caption"></div>
+        </div>
       </section>
+    </header>
+
+    <script src="js/popoutimage.js"></script>
+
+    <section class="activity-card-container">
+      <a href="activity-pripyat.html">
+        <div class="activity-card">
+          <img src="images/activity-cards/3669818.png"
+            alt="Room in Pripyat with abandoned gas mask through the frame of a broken TV, rubble littering the floor"
+            width="200" height="300">
+          <div class="activity-card-text">Pripyat Guided Tour, before and after the destruction of Chernobyl</div>
+        </div>
+      </a>
+
+      <a href="activity-chernobyl.html">
+        <div class="activity-card">
+          <img src="images/activity-cards/1374515.png"
+            alt="Statue of hands outside of the Chernobyl Power Plant, post sarcophagus" width="200" height="300">
+
+          <div class="activity-card-text">Chernobyl Guided Tour, the event that signalled the end of USSR</div>
+        </div>
+      </a>
+
+      <a href="activity-spacerace.html">
+        <div class="activity-card">
+
+          <img src="images/activity-cards/cosmonaut-space-suit-193782.jpg" alt="Russian Cosmonaut helmet" width="200"
+            height="300">
+
+          <div class="activity-card-text">Witness the Space Race in real time, from USSR's perspective</div>
+        </div>
+      </a>
+
+      <a href="activity-communistrally.html">
+        <div class="activity-card">
+
+          <img src="images/activity-cards/victory-day-3393148.jpg"
+            alt="Girl dressed in WW2 military garb participating in a Victory Day Parade" width="200" height="300">
+
+          <div class="activity-card-text">Participate in a communist rally, witness the might of the USSR</div>
+        </div>
+      </a>
+
+      <a href="activity-visitlocals.html">
+        <div class="activity-card">
+
+          <img src="images/activity-cards/photo-of-woman-dancing-with-saint-basil-s-cathedral-in-1919077.jpg"
+            alt="Girl posing in front of the Saint Basil's Cathedral" width="200" height="300">
+
+          <div class="activity-card-text">Immerse yourself in Soviet culture & break bread with locals</div>
+        </div>
+      </a>
+
+      <a href="activity-coldwar.html">
+        <div class="activity-card">
+
+          <img src="images/activity-cards/nuclear-weapons-test-67557.jpg"
+            alt="Nuclear weapons test detonated off the coast of an Island" width="200" height="300">
+
+          <div class="activity-card-text">Cold War Guided Tour, see how life as we know it nearly ended</div>
+        </div>
+      </a>
+
     </section>
-    
-  </body>
-  
+  </section>
+
+</body>
+
 <script src="js/slideshow.js"></script>
-<script>getSlides();</script>
+<script>
+  getSlides();
+</script>
+
 </html>

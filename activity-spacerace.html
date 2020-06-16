@@ -1,149 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript">
     document.write('<link rel="stylesheet" href="css/jsstyle.css" />');
-    </script>
-    <link href="fontawesome/css/all.css" rel="stylesheet">
-    <script src="js/navigation.js"></script>
-    <title>Soviet Space Race Tour</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  </head>
+  </script>
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <script src="js/navigation.js"></script>
+  <title>Soviet Space Race Tour</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
 
-  <nav>
-    <section class="navbar" id = "TopNavBar">
-      <a href="index.html" class="active"><i class="fas fa-home"></i></a>
-      <a href="activities.html">Activities</a>
-      <a href="contact.html">Contact</a>
-      <a href="aboutus.html">About Us</a>
-      <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+<nav>
+  <section class="navbar" id="TopNavBar">
+    <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+    <a href="activities.html">Activities</a>
+    <a href="contact.html">Contact</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </section>
+</nav>
+
+<body>
+  <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i
+      class="fas fa-arrow-circle-up"></i></button>
+
+  <script src="js/navigation.js"></script>
+
+
+  <section class="main">
+    <div class="subactivity-header">
+      <h2>Soviet Space Program Tour</h2>
+    </div>
+    <section class="slide-show-container">
+      <div class="activity-slide">
+        <img src="images/slides-spacerace/soviet-artefacts-vli6Ryku9Bs-unsplash.jpg"
+          alt="Tiled mural depicting a Cosmonaut floating in space above earth, attached by a cord to his space ship | Photo by Soviet Artefacts https://unsplash.com/photos/vli6Ryku9Bs"
+          id="spaceraceimage1">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-spacerace/satellite-67718.jpg"
+          alt="Russian Satellite orbitting earth | Photo by WikiImages https://pixabay.com/photos/satellite-soyuz-spaceship-67718/"
+          id="spaceraceimage2">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-spacerace/sea-flight-sky-earth-2163.jpg"
+          alt="Soviet rocket launching, destination: Space | https://www.pexels.com/photo/sea-flight-sky-earth-2163/"
+          id="spaceraceimage3">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-spacerace/soviet-artefacts-hSDtiLpATak-unsplash.jpg"
+          alt="Soviet tiled mural depicting a Cosmonaut in his space suit | Photo by Soviet Artefacts https://unsplash.com/photos/hSDtiLpATak"
+          id="spaceraceimage4">
+      </div>
+      <div class="activity-slide">
+        <img src="images/slides-spacerace/cosmonaut-space-suit-193782.jpg"
+          alt="Soviet Space Program Cosmonaut's suit | Photo by stux https://pixabay.com/photos/cosmonaut-space-suit-cosmonaut-193782/"
+          id="spaceraceimage5">
+      </div>
+
+
+      <div id="popOutImage" class="pop-out-image">
+        <span class="close">&times;</span>
+        <img class="pop-out-image-content" id="imagecontent">
+        <div id="caption"></div>
+        <script src="js/popoutimagespacerace.js"></script>
+      </div>
     </section>
-  </nav>
+    <div style="clear:initial"></div>
 
-  <body>
-    <button onclick="toTopFunction()" id="ToTopButton" title="Scroll to top"><i class="fas fa-arrow-circle-up"></i></button>
-    
-    <script src="js/navigation.js"></script>
+    <div class="activity-text">
+      <div class="activity-text-left">
+        <div class="activity-description">
+          <h3>See the historical Space Race between the USSR and the United States from the perspective of the USSR.
+          </h3>
+        </div>
 
-    
-    <section class="main">
-      <div class="subactivity-header">
-        <h2>Soviet Space Program Tour</h2>
-      </div>
-      <section class = "slide-show-container">
-        <div class = "activity-slide">
-            <img src = "images/slides-spacerace/soviet-artefacts-vli6Ryku9Bs-unsplash.jpg" alt="Tiled mural depicting a Cosmonaut floating in space above earth, attached by a cord to his space ship | Photo by Soviet Artefacts https://unsplash.com/photos/vli6Ryku9Bs" id = "spaceraceimage1">
+        <button type="button" class="collapsible-text">Duration <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p><i class="fas fa-history"></i> Duration : 4 hours</p>
         </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-spacerace/satellite-67718.jpg" alt="Russian Satellite orbitting earth | Photo by WikiImages https://pixabay.com/photos/satellite-soyuz-spaceship-67718/" id = "spaceraceimage2">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-spacerace/sea-flight-sky-earth-2163.jpg" alt="Soviet rocket launching, destination: Space | https://www.pexels.com/photo/sea-flight-sky-earth-2163/"  id = "spaceraceimage3">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-spacerace/soviet-artefacts-hSDtiLpATak-unsplash.jpg" alt="Soviet tiled mural depicting a Cosmonaut in his space suit | Photo by Soviet Artefacts https://unsplash.com/photos/hSDtiLpATak" id = "spaceraceimage4">
-        </div>
-        <div class = "activity-slide">
-          <img src = "images/slides-spacerace/cosmonaut-space-suit-193782.jpg" alt="Soviet Space Program Cosmonaut's suit | Photo by stux https://pixabay.com/photos/cosmonaut-space-suit-cosmonaut-193782/" id = "spaceraceimage5">
-      </div>
-
-        
-        <div id="popOutImage" class="pop-out-image">
-          <span class="close">&times;</span>
-          <img class="pop-out-image-content" id ="imagecontent">
-          <div id="caption"></div>
-          <script src="js/popoutimagespacerace.js"></script>
-        </div>
-      </section>
-      <div style="clear:initial"></div>
-
-      <div class="activity-text">
-        <div class="activity-text-left">
-          <div class = "activity-description">
-            <h3>See the historical Space Race between the USSR and the United States from the perspective of the USSR.</h3>
-          </div>
-          
-          <button type="button" class="collapsible-text">Duration <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p><i class="fas fa-history"></i> Duration : 4 hours</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Experience <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p><ul>
+        <hr>
+        <button type="button" class="collapsible-text">Experience <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>
+            <ul>
               <li>Meet cosmonauts from the Soviet space program before they embark on dangerous missions</li>
               <li>Witness the launches of the first humans to enter space and orbit Earth</li>
               <li>See the innards of the Buran spacecraft, before it was destroyed in 2002 hangar collapse</li>
               <li>Observe the launch of Sputnik-1, the first artificial earth satellite</li>
-              <li>See the launch of Luna 2, the Soviet Cosmic Rocket that impacted the moon in 1959</li></p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Full description <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p>The space program of the USSR was helped dearly by captured scientists out of Germany after the end of WW2. While the Americans had a single agency coordinating their eforts in the space race (NASA), the USSR had several bureaus, often competing with eachother on designs and funding. Due to the secrecy of the Communist government, people in the Soviet Union were often not up to date with the achievements and also failures of the Soviet Space Program. They achieved many great things though, the first human in space and Earth orbit being Yuri Gagarin in the Vostok 1, the first woman in space Valentina Tereshkova in the Vostok 6, the first space walk by Alexei Leonov on the Voshkod 2, the first Moon impact with the Luna 2 and the first image of the far side of the Moon by Luna 3. As well as many other achievements.</p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Inclusions <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p style="margin-left:30px">
-              <i class="far fa-check-circle"></i> A guaranteed date and time for your tour<br/>
-              <i class="far fa-check-circle"></i> Everything you need<br/>
-              <i class="far fa-check-circle"></i> All food and drink is supplied for the day<br/>
-              <i class="far fa-check-circle"></i> Due to to the extreme nature of the content of this tour you will be required to particiapte in a special training session before your tour and a personal de-briefing after your tour.<br/>
-              <i class="far fa-times-circle"></i> Transportation to and from the Time Extraction facility<br/>
-              <i class="far fa-times-circle"></i> If your are detained in time. Any additonal extraction costs required for remote extraction are not inluded<br/>
-             </p>
-          </div>
-          <hr>
-          <button type="button" class="collapsible-text">Location <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-              <p></p>
-              <iframe src="https://maps.google.com/maps?q=Baikonur%20Cosmodrome&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>             </p>
-          </div>
-
-          
-          <hr>
-          <button type="button" class="collapsible-text">What to bring <i class="fas fa-chevron-down"></i></button>
-          <div class="collapsible-text-content">
-            <p style="margin-left:30px">
-                <p> What to bring</p>
-          <p>
-            <ul>
-              <li>Your registered electronic ticket</li>
-              <li>Proof of identity</li>
-              <li>Yourself and a sense of adventure. That's all you need</li>
-              <li>We will provide everything you need from appropriate dress to automated high quality hidden recording devices</li>
-            </ul>
+              <li>See the launch of Luna 2, the Soviet Cosmic Rocket that impacted the moon in 1959</li>
           </p>
-          <p>What NOT to bring</p>
-            <ul>
-              <li>A Bad Attitude - Remember you will really be in the USSR in the 20th Century. We are not responsible for any negative outcomes caused by your behaviour. Remote extractions are also more difficult and not covered by your tickets costs</li>
-              <li>Your Universal Translator. We will provide all translation equipment. We cannot have inexperienced verbal contact with people living in the past. Our guides are trained experts.</li>
-              <li>If there is anything you want to bring you must check with your guide first. Contraband will lead to the immediate cancellation of your tour.</li>
-            </ul>
-          </p>
-             </p>
-          </div>
         </div>
-        <div class="activity-text-right">
-          <h2> $99 per person</h2>
-          <a href="booknow.html" class="book-now-button">Book Now</a>
+        <hr>
+        <button type="button" class="collapsible-text">Full description <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p>The space program of the USSR was helped dearly by captured scientists out of Germany after the end of WW2.
+            While the Americans had a single agency coordinating their eforts in the space race (NASA), the USSR had
+            several bureaus, often competing with eachother on designs and funding. Due to the secrecy of the Communist
+            government, people in the Soviet Union were often not up to date with the achievements and also failures of
+            the Soviet Space Program. They achieved many great things though, the first human in space and Earth orbit
+            being Yuri Gagarin in the Vostok 1, the first woman in space Valentina Tereshkova in the Vostok 6, the first
+            space walk by Alexei Leonov on the Voshkod 2, the first Moon impact with the Luna 2 and the first image of
+            the far side of the Moon by Luna 3. As well as many other achievements.</p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Inclusions <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p style="margin-left:30px">
+            <i class="far fa-check-circle"></i> A guaranteed date and time for your tour<br />
+            <i class="far fa-check-circle"></i> Everything you need<br />
+            <i class="far fa-check-circle"></i> All food and drink is supplied for the day<br />
+            <i class="far fa-check-circle"></i> Due to to the extreme nature of the content of this tour you will be
+            required to particiapte in a special training session before your tour and a personal de-briefing after your
+            tour.<br />
+            <i class="far fa-times-circle"></i> Transportation to and from the Time Extraction facility<br />
+            <i class="far fa-times-circle"></i> If your are detained in time. Any additonal extraction costs required
+            for remote extraction are not inluded<br />
+          </p>
+        </div>
+        <hr>
+        <button type="button" class="collapsible-text">Location <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p></p>
+          <iframe src="https://maps.google.com/maps?q=Baikonur%20Cosmodrome&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe> </p>
+        </div>
+
+
+        <hr>
+        <button type="button" class="collapsible-text">What to bring <i class="fas fa-chevron-down"></i></button>
+        <div class="collapsible-text-content">
+          <p style="margin-left:30px">
+            <p> What to bring</p>
+            <p>
+              <ul>
+                <li>Your registered electronic ticket</li>
+                <li>Proof of identity</li>
+                <li>Yourself and a sense of adventure. That's all you need</li>
+                <li>We will provide everything you need from appropriate dress to automated high quality hidden
+                  recording devices</li>
+              </ul>
+            </p>
+            <p>What NOT to bring</p>
+            <ul>
+              <li>A Bad Attitude - Remember you will really be in the USSR in the 20th Century. We are not responsible
+                for any negative outcomes caused by your behaviour. Remote extractions are also more difficult and not
+                covered by your tickets costs</li>
+              <li>Your Universal Translator. We will provide all translation equipment. We cannot have inexperienced
+                verbal contact with people living in the past. Our guides are trained experts.</li>
+              <li>If there is anything you want to bring you must check with your guide first. Contraband will lead to
+                the immediate cancellation of your tour.</li>
+            </ul>
+          </p>
+          </p>
         </div>
       </div>
-      <div style="clear:both"></div>
+      <div class="activity-text-right">
+        <h2> $99 per person</h2>
+        <a href="booknow.html" class="book-now-button">Book Now</a>
+      </div>
+    </div>
+    <div style="clear:both"></div>
 
-    </section>
-    
-  </body>
+  </section>
+
+</body>
 
 
 <script src="js/collapsibletext.js"></script>
 <script src="js/slideshow.js"></script>
-<script>getSlides();</script>
+<script>
+  getSlides();
+</script>
+
 </html>

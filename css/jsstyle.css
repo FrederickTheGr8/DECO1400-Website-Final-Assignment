@@ -53,11 +53,13 @@ body {
   background-color: #555;
 }
 
-.main {
-}
+.main {}
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
   .navbar a.icon {
     float: right;
     display: block;
@@ -66,12 +68,16 @@ body {
 
 
 @media screen and (max-width: 601px) {
-  .navbar.reactive {position: relative;}
+  .navbar.reactive {
+    position: relative;
+  }
+
   .navbar.reactive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .navbar.reactive a {
     float: none;
     display: block;
@@ -82,11 +88,12 @@ body {
 .homepage-image {
   /* Photo by Soviet Artefacts | https://unsplash.com/photos/bksS_c33rWM */
   background-image: url("../images/soviet-artefacts-bksS_c33rWM-unsplash.jpg");
-  height: 1006px;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 1006px;
   position: relative;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .homepage-text {
@@ -97,7 +104,7 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px #696969;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .homepage-text h1 {
@@ -133,7 +140,7 @@ body {
   transform: translate(-50%, -20%);
   color: rgb(8, 224, 231);
   text-shadow: 2px 2px #000000;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .activities-header h1 {
@@ -153,8 +160,8 @@ body {
   color: rgb(8, 224, 231);
   text-shadow: 1px 1px #000000;
   padding-left: 50px;
-  background-color: rgba(0,0,0,0.8);
-  font-size:3vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 3vw;
 }
 
 .subactivity-header h2 {
@@ -162,7 +169,7 @@ body {
   padding: 0px 0px 0px 0px;
 }
 
-.button-container{
+.button-container {
   text-align: center;
   margin: auto;
   width: 40%;
@@ -185,7 +192,10 @@ body {
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
-.button1:hover {background-color: #08a2ad}
+
+.button1:hover {
+  background-color: #08a2ad
+}
 
 .button1:active {
   background-color: #0dd4ee;
@@ -236,7 +246,7 @@ body {
   background-color: rgba(204, 204, 204, 0.315);
   float: left;
   width: 250px;
-  height:350px
+  height: 350px
 }
 
 .activity-card:hover {
@@ -256,31 +266,35 @@ body {
   font-family: sans-serif;
 
 }
-.activity-text{
+
+.activity-text {
   padding-left: 10px;
   padding-right: 5px;
   text-align: left;
   width: 98%;
-  overflow:auto;
+  overflow: auto;
   padding: 10px
 }
-.activity-text-left{
-   float:left; 
-   width: 60vw;
-   padding-left: 40px;
-   padding-right: 20px;
- }
- .activity-text-left-indent{
-   text-indent: 20px;
- }
-.activity-text-right{
-  float:left;
+
+.activity-text-left {
+  float: left;
+  width: 60vw;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.activity-text-left-indent {
+  text-indent: 20px;
+}
+
+.activity-text-right {
+  float: left;
   width: 20vw;
   text-align: center;
 }
 
-.book-now-button{
-  background-color:orange;
+.book-now-button {
+  background-color: orange;
   border-radius: 4px;
   border: palegoldenrod;
   color: blue;
@@ -290,19 +304,19 @@ body {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  margin: 4px 2px;  
+  margin: 4px 2px;
 }
 
-.book-now-button:hover{
-  background-color:rgb(255, 0, 0);
+.book-now-button:hover {
+  background-color: rgb(255, 0, 0);
 }
 
-.book-now-button:active{
-  background-color:orange;
+.book-now-button:active {
+  background-color: orange;
 }
 
 
-hr{
+hr {
   display: block;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -322,41 +336,42 @@ hr{
   transition: 0.3s;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
 
 #caption {
+  color: #ccc;
   margin: auto;
+  padding: 10px 0;
   display: block;
   width: 80%;
+  height: 150px;
   max-width: 700px;
   text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
 }
 
-.activity-description{
+.activity-description {
   font-family: sans-serif;
   color: #000000;
   padding-bottom: 10px;
 }
 
 .pop-out-image {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 100px; 
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.9); 
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .pop-out-image-content {
@@ -366,7 +381,9 @@ hr{
   max-width: 90%;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -384,7 +401,7 @@ input[type=submit] {
   padding: 12px 30px;
   border: none;
   border-radius: 45x;
-  
+
 }
 
 input[type=submit]:hover {
@@ -411,18 +428,19 @@ input[type=submit]:hover {
   font-size: 25px;
 }
 
-.active, .collapsible-text:hover {
+.active,
+.collapsible-text:hover {
   background-color: rgba(5, 187, 211, 0.603);
   color: black;
 }
 
 .collapsible-text-content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    font-family: sans-serif;
-  }
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+}
 
 #pripyatimage1 {
   width: 75%;
@@ -545,67 +563,67 @@ input[type=submit]:hover {
 }
 
 
-#visitlocalsimage1{
+#visitlocalsimage1 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage2{
+#visitlocalsimage2 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage3{
+#visitlocalsimage3 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage4{
+#visitlocalsimage4 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage5{
+#visitlocalsimage5 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage6{
+#visitlocalsimage6 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage7{
+#visitlocalsimage7 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage8{
+#visitlocalsimage8 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage9{
+#visitlocalsimage9 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage10{
+#visitlocalsimage10 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage11{
+#visitlocalsimage11 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage12{
+#visitlocalsimage12 {
   width: 60%;
   margin-left: 50px;
 }
 
-#visitlocalsimage13{
+#visitlocalsimage13 {
   width: 60%;
   margin-left: 50px;
 }
@@ -656,14 +674,14 @@ input[type=submit]:hover {
 }
 
 footer {
-   left: 0;
-   bottom: 0;
-   width: 60%;
-   background-color: rgba(36, 33, 33, 0.767);
-   color: white;
-   text-align: left;
-   margin-left: 50px;
-   margin-right: 100px;
+  left: 0;
+  bottom: 0;
+  width: 60%;
+  background-color: rgba(36, 33, 33, 0.767);
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 100px;
 }
 
 .about-us-header h1 {

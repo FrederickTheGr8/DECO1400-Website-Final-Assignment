@@ -9,43 +9,43 @@ var chernobylimage6 = document.getElementById("chernobylimage5");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-chernobylimage1.onclick= function(){
+chernobylimage1.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-chernobylimage2.onclick= function(){
+chernobylimage2.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-chernobylimage3.onclick= function(){
+chernobylimage3.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-chernobylimage4.onclick= function(){
+}
+chernobylimage4.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  
-chernobylimage5.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
+}
 
-  chernobylimage6.onclick= function(){
-    popoutimage.style.display = "block";
-    imagecontent.src = this.src;
-    captionText.innerHTML = this.alt;
-    }
-    
+chernobylimage5.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+chernobylimage6.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function () {
   popoutimage.style.display = "none";
 }

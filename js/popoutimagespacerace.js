@@ -8,38 +8,38 @@ var spaceraceimage5 = document.getElementById("spaceraceimage5");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-spaceraceimage1.onclick= function(){
+spaceraceimage1.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-spaceraceimage2.onclick= function(){
+spaceraceimage2.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-spaceraceimage3.onclick= function(){
+spaceraceimage3.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-spaceraceimage4.onclick= function(){
+spaceraceimage4.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-spaceraceimage5.onclick= function(){
+spaceraceimage5.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  
+}
+
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function () {
   popoutimage.style.display = "none";
 }

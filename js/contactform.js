@@ -1,3 +1,3 @@
 function validateForm() {
-    var submit = document.getElementById("")
-  }
+  var submit = document.getElementById("")
+}

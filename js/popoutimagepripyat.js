@@ -9,43 +9,43 @@ var pripyatimage6 = document.getElementById("pripyatimage6");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-pripyatimage1.onclick= function(){
+pripyatimage1.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-pripyatimage2.onclick= function(){
+pripyatimage2.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-pripyatimage3.onclick= function(){
+pripyatimage3.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-pripyatimage4.onclick= function(){
+}
+pripyatimage4.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  
-pripyatimage5.onclick= function(){
+}
+
+pripyatimage5.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-    
-pripyatimage6.onclick= function(){
+}
+
+pripyatimage6.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-      
+}
+
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function () {
   popoutimage.style.display = "none";
 }

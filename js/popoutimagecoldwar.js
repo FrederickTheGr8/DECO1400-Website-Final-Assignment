@@ -12,61 +12,61 @@ var coldwarimage9 = document.getElementById("coldwarimage9");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-coldwarimage1.onclick= function(){
+coldwarimage1.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-  coldwarimage2.onclick= function(){
+coldwarimage2.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-  coldwarimage3.onclick= function(){
+coldwarimage3.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  coldwarimage4.onclick= function(){
+}
+coldwarimage4.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  
-  coldwarimage5.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
-    
-  coldwarimage6.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
+}
 
-  coldwarimage7.onclick= function(){
+coldwarimage5.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-coldwarimage8.onclick= function(){
+coldwarimage6.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-coldwarimage9.onclick= function(){
+coldwarimage7.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-      
+}
+
+coldwarimage8.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+coldwarimage9.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function () {
   popoutimage.style.display = "none";
 }

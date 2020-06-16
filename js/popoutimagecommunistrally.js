@@ -10,49 +10,49 @@ var communistrallyimage7 = document.getElementById("communistrallyimage7");
 var imagecontent = document.getElementById("imagecontent");
 var captionText = document.getElementById("caption");
 
-communistrallyimage1.onclick= function(){
+communistrallyimage1.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-communistrallyimage2.onclick= function(){
+communistrallyimage2.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
+}
 
-communistrallyimage3.onclick= function(){
+communistrallyimage3.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-communistrallyimage4.onclick= function(){
+}
+communistrallyimage4.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
   captionText.innerHTML = this.alt;
-  }
-  
-communistrallyimage5.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
-    
-communistrallyimage6.onclick= function(){
-  popoutimage.style.display = "block";
-  imagecontent.src = this.src;
-  captionText.innerHTML = this.alt;
-  }
+}
 
-communistrallyimage7.onclick= function(){
+communistrallyimage5.onclick = function () {
   popoutimage.style.display = "block";
   imagecontent.src = this.src;
-    aptionText.innerHTML = this.alt;
-  }
-      
+  captionText.innerHTML = this.alt;
+}
+
+communistrallyimage6.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+communistrallyimage7.onclick = function () {
+  popoutimage.style.display = "block";
+  imagecontent.src = this.src;
+  aptionText.innerHTML = this.alt;
+}
+
 var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function () {
   popoutimage.style.display = "none";
 }
